@@ -18,7 +18,7 @@ def quick_sort1(lists, left, right):
             left += 1
         lists[right] = lists[left]
     lists[right] = pivot
-    print lists  # 看排序过程
+    # print lists  # 看排序过程
     quick_sort1(lists, low, left - 1)
     quick_sort1(lists, left + 1, high)
     return lists
@@ -35,7 +35,7 @@ def quick_sort2(lists, left, right):
             lists[storeIndex], lists[i] = lists[i], lists[storeIndex]
             storeIndex += 1
     lists[storeIndex], lists[right] = lists[right], lists[storeIndex]
-    print lists  # 看排序过程
+    # print lists  # 看排序过程
     quick_sort2(lists, left, storeIndex-1)
     quick_sort2(lists, storeIndex+1, right)
     return lists
