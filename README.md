@@ -14,7 +14,7 @@
 
 - 插入排序 ☑️
 
-- 希尔排序
+- 希尔排序 ☑️
 
 
 ![image](https://github.com/qweasdzxcpkh/algorithms_by_python/raw/master/images/me-wechat.png)
