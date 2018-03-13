@@ -1,6 +1,6 @@
 # algorithms_by_python
 
-## python实现简单的排序算法
+## python实现简单的算法
 
 - 快速排序 ☑️
 
@@ -18,12 +18,14 @@
 
 - 基数排序 ☑️
 
+- 求全排列 ☑️
+
 
 ## 数据结构
 
 - 游标实现链表 ☑️
 
 
-![image](https://github.com/qweasdzxcpkh/algorithms_by_python/raw/master/images/me-wechat.png)
+<!-- ![image](https://github.com/qweasdzxcpkh/algorithms_by_python/raw/master/images/me-wechat.png) -->
 
 立flag不怕多，最怕做不到
