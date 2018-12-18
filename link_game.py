@@ -31,7 +31,6 @@ class LinkGraph(object):
     def __init__(self, graph):
         self.origin_graph = self.work_graph = graph
         self.len = 0
-        self.max_x, self.max_y = len(graph), len(graph[0])
         # 散列，记录每个点的坐标
         self.dict = dict()
         for i, row in enumerate(graph):
@@ -146,3 +145,4 @@ class LinkGraph(object):
         self.work_graph[x2][y2] = None
         self.dict[k].remove(item1)
         self.dict[k].remove(item2)
+        self.len -= 2
